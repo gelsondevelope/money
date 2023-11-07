@@ -1,0 +1,32 @@
+
+
+.summary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-top: -10rem;
+
+}
+.summary div{
+    background: var(--shape);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    color: var(--text-title);
+ 
+}
+
+.summary header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.summary header img{
+    width:50px;
+}
+.summary strong{
+    font-weight: 500;
+    font-size: 2rem;
+    display: block;
+    margin-top: 1rem;
+    line-height: 3rem;
+}
